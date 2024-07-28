@@ -5,7 +5,7 @@ This project involves manual testing of the e-commerce website [https://skleptes
 
 ## Test Plan
 
-## Description
+### Description
 The objective of this project is to verify the functionality of the e-commerce website [https://skleptest.pl/](https://skleptest.pl/). The tests will focus on critical user functionalities such as registration, login, product browsing, and the purchasing process. The testing environment includes Ubuntu operating system with Google Chrome as the browser. The types of tests to be conducted include functional tests, usability tests, and regression tests. The criteria for test completion is 100% execution of all test cases.
 
 ### Scope of Testing
