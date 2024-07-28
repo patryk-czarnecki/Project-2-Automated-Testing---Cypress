@@ -24,7 +24,6 @@ The objective of this project is to verify the functionality of the e-commerce w
 
 1. **Functional Tests**: To verify that each feature works according to the requirements.
 2. **Usability Tests**: To ensure the website is user-friendly and navigation is intuitive.
-3. **Regression Tests**: To confirm that new changes do not negatively impact existing functionalities.
 
 ### Test Schedule
 
