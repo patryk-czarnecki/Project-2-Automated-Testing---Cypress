@@ -37,6 +37,8 @@ The objective of this test plan is to verify the functionality of the e-commerce
 - [Product Browsing Test Cases](TestCases_ProductBrowsing.md)
 - [Shopping Cart Test Cases](TestCases_Cart.md)
 
+### [Test Plan](TestPlan.md)
+
 ### Screenshots
 
 #### TestLink Test Cases List
