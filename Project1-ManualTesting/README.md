@@ -13,7 +13,7 @@ The objective of this project is to verify the functionality of the e-commerce w
 1. **Registration**: Ensuring that new users can register successfully with all required information.
 2. **Login**: Verifying that registered users can log in and access their accounts.
 3. **Product Browsing**: Checking that users can browse products, view product details, and filter/search for specific items.
-4. **Purchasing Process**: Ensuring the complete purchasing workflow, from adding products to the cart, through the checkout process, to receiving a confirmation.
+4. **Shopping cart functionality**: Verify that users can add items, update quantities, view the cart from any page, remove items.
 
 ### Testing Environment
 
