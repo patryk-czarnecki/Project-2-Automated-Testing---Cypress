@@ -4,7 +4,7 @@
 - **Title**: User Registration with Valid Data
 - **Summary**: Verify that a new user can register successfully with valid data.
 - **Steps**:
-  1. **Step**: Open the [registration page](https://skleptest.pl/register).
+  1. **Step**: Open the [registration page](https://skleptest.pl/my-account/).
      - **Expected Result**: The registration page is displayed.
   2. **Step**: Enter a valid email address (e.g., user@example.com).
      - **Expected Result**: The email address is entered correctly.
@@ -19,7 +19,7 @@
 - **Title**: User Registration without Email
 - **Summary**: Verify that the user cannot register without entering an email address.
 - **Steps**:
-  1. **Step**: Open the [registration page](https://skleptest.pl/register).
+  1. **Step**: Open the [registration page](https://skleptest.pl/my-account/).
      - **Expected Result**: The registration page is displayed.
   2. **Step**: Leave the email field empty.
      - **Expected Result**: The email field is empty.
@@ -34,7 +34,7 @@
 - **Title**: User Registration without Password
 - **Summary**: Verify that the user cannot register without entering a password.
 - **Steps**:
-  1. **Step**: Open the [registration page](https://skleptest.pl/register).
+  1. **Step**: Open the [registration page](https://skleptest.pl/my-account/).
      - **Expected Result**: The registration page is displayed.
   2. **Step**: Enter a valid email address (e.g., user@example.com).
      - **Expected Result**: The email address is entered correctly.
@@ -47,7 +47,7 @@
 - **Title**: User Registration with Non-Matching Passwords
 - **Summary**: Verify that the user cannot register with non-matching passwords.
 - **Steps**:
-  1. **Step**: Open the [registration page](https://skleptest.pl/register).
+  1. **Step**: Open the [registration page](https://skleptest.pl/my-account/).
      - **Expected Result**: The registration page is displayed.
   2. **Step**: Enter a valid email address (e.g., user@example.com).
      - **Expected Result**: The email address is entered correctly.
@@ -62,7 +62,7 @@
 - **Title**: User Registration with Existing Email
 - **Summary**: Verify that the user cannot register with an email address that is already in use.
 - **Steps**:
-  1. **Step**: Open the [registration page](https://skleptest.pl/register).
+  1. **Step**: Open the [registration page](https://skleptest.pl/my-account/).
      - **Expected Result**: The registration page is displayed.
   2. **Step**: Enter an email address that is already registered (e.g., existinguser@example.com).
      - **Expected Result**: The email address is entered correctly.
