@@ -31,7 +31,7 @@ There is no specific time frame for the tests, they will be conducted continuous
 
 ### Resources
 
-- **Test Engineer**: Responsible for creating and executing test cases (You will be testing independently).
+- **Test Engineer**: Responsible for creating and executing test cases.
 - **Tools**: TestLink for test management, Jira for defect tracking.
 
 ### Entry Criteria
