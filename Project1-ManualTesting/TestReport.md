@@ -94,9 +94,10 @@ Based on the [Test Result Matrix](./reports/TestLink-Matrix.pdf):
      - Negative Quantity Value in Add to Cart Field
      - Quantity Field Limited to Two Digits in Add to Cart
    - **Steps to Reproduce:**
-     1. Go to the product details page [https://skleptest.pl/product/{product-id}](https://skleptest.pl/product/little-black-top/).
-     2. Check the product description section.
-     3. Check the quantity input field for adding the product to the cart.
+     1. Go to the product listing page [https://skleptest.pl/products](https://skleptest.pl/).
+     2. Choose any product.
+     3. Check the product description section.
+     4. Check the quantity input field for adding the product to the cart.
    - **Expected Result:** Detailed product description, positive integer quantity input.
    - **Actual Result:** Placeholder text, negative values allowed, and two-digit limit.
    - **Priority:** High
@@ -119,8 +120,9 @@ Based on the [Test Result Matrix](./reports/TestLink-Matrix.pdf):
    - **Summary:** Unable to Add Single Product to Cart
    - **Description:** The product is not added to the cart after clicking the "Add to Cart" button.
    - **Steps to Reproduce:**
-     1. Go to the product details page [https://skleptest.pl/product/{product-id}](https://skleptest.pl/product/little-black-top/).
-     2. Click the "Add to Cart" button.
+     1. Go to the product listing page [https://skleptest.pl/products](https://skleptest.pl/).
+     2. Choose any product.
+     3. Click the "Add to Cart" button.
    - **Expected Result:** The product should be added to the cart.
    - **Actual Result:** The product is not added to the cart.
    - **Priority:** Critical
@@ -131,9 +133,10 @@ Based on the [Test Result Matrix](./reports/TestLink-Matrix.pdf):
    - **Summary:** Remove Product Button in Cart Not Functioning
    - **Description:** Clicking the "Remove" button does not remove the product from the cart.
    - **Steps to Reproduce:**
-     1. Add a product to the cart.
-     2. Go to the cart page [https://skleptest.pl/cart](https://skleptest.pl/cart/).
-     3. Click the "Remove" button next to the product.
+     1. Go to the product listing page [https://skleptest.pl/products](https://skleptest.pl/).
+     2. Add a product to the cart.
+     3. Go to the cart page [https://skleptest.pl/cart](https://skleptest.pl/cart/).
+     4. Click the "Remove" button next to the product.
    - **Expected Result:** The product should be removed from the cart.
    - **Actual Result:** Clicking the "Remove" button does not remove the product from the cart.
    - **Priority:** High
