@@ -72,6 +72,7 @@ The following test reports have been generated and are available in the `reports
 
 - [Test Plan Report](./reports/TestLink-raport.pdf): This report provides an overview of the test plan, including the scope of testing, test cases executed, and their results.
 - [Test Result Matrix](./reports/TestLink-Matrix.pdf): This report provides a detailed matrix of test results, showing the execution status of each test case.
+- [Test Summary Report](TestReport.md): This markdown file provides a summary of the testing activities and outcomes.
 
 ## Summary and Recommendations
 
