@@ -1,8 +1,5 @@
 # QA Portfolio
 
-## About Me
-I am a novice software tester skilled in manual and automated testing. I am proficient with tools like Testlink, Cypress, Postman, JMeter, Jira, Jenkins, Git, Visual Studio Code, GitHub, and Docker.
-
 ## Projects
 
 ### [Project 1: Manual Testing](Project1-ManualTesting)
