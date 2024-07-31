@@ -70,8 +70,8 @@ There is no specific time frame for the tests, they will be conducted continuous
 
 The following test reports have been generated and are available in the `reports` directory:
 
-- [Test Plan Report](./reports/TestLink_1.9.20_DEV_Test_Plan_Report.pdf): This report provides an overview of the test plan, including the scope of testing, test cases executed, and their results.
-- [Test Result Matrix](./reports/TestLink_1.9.20_DEV_Test_Result_Matrix.pdf): This report provides a detailed matrix of test results, showing the execution status of each test case.
+- [Test Plan Report](./reports/TestLink%201.9.20%20%5BDEV%5D%20TestLink%201.9.20%20%5BDEV%5D.pdf): This report provides an overview of the test plan, including the scope of testing, test cases executed, and their results.
+- [Test Result Matrix](./reports/TestLink%201.9.20%20%5BDEV%5D%20Matrix.pdf): This report provides a detailed matrix of test results, showing the execution status of each test case.
 
 ## Summary and Recommendations
 
