@@ -45,7 +45,7 @@ Based on the [Test Plan Report](./reports/TestLink-raport.pdf):
    - EC-18: Update Product Quantity in Cart - Blocked
 
 ### Test Result Matrix Summary
-Based on the `Test Result Matrix`:
+Based on the [Test Result Matrix](./reports/TestLink-Matrix.pdf):
 
 - **Registration**
   - All test cases in this suite have been executed, with one failure.
