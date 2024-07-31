@@ -60,16 +60,34 @@ There is no specific time frame for the tests, they will be conducted continuous
 - Defect Reports
 - Test Summary Report
 
-### Test Cases
+## Test Cases
 - [Registration Test Cases](TestCases_Registration.md)
 - [Login Test Cases](TestCases_Login.md)
 - [Product Browsing Test Cases](TestCases_ProductBrowsing.md)
 - [Shopping Cart Test Cases](TestCases_Cart.md)
 
-### Screenshots
+## Test Reports
 
-#### TestLink Test Cases List
+The following test reports have been generated and are available in the `reports` directory:
+
+- [Test Plan Report](./reports/TestLink_1.9.20_DEV_Test_Plan_Report.pdf): This report provides an overview of the test plan, including the scope of testing, test cases executed, and their results.
+- [Test Result Matrix](./reports/TestLink_1.9.20_DEV_Test_Result_Matrix.pdf): This report provides a detailed matrix of test results, showing the execution status of each test case.
+
+## Summary and Recommendations
+
+Based on the results of the testing, the following observations and recommendations are made:
+
+- A total of 18 test cases were executed, with 10 passing, 6 failing, and 2 blocked.
+- Critical and major bugs were identified, particularly affecting the user registration, product browsing, and shopping cart functionalities.
+- It is recommended to address the high-priority and critical issues identified during testing before proceeding to production.
+- After fixes are implemented, a round of regression testing should be conducted to ensure no new issues have been introduced.
+
+We recommend close collaboration between the testing and development teams to address the identified issues promptly and efficiently.
+
+## Screenshots
+
+### TestLink Test Cases List
 ![TestLink Test Cases List](screenshots/testlink_test_cases_list.png)
 
-#### TestLink Test Case Details
+### TestLink Test Case Details
 ![TestLink Test Case Details](screenshots/testlink_test_case_details.png)
