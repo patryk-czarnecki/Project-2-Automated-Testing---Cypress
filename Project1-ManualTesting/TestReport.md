@@ -16,7 +16,7 @@ The tests were conducted to ensure that all critical functionalities work as exp
 ## Test Execution Details
 
 ### Test Plan Report Summary
-Based on the `Test Plan Report`:
+Based on the [Test Plan Report](./reports/TestLink-raport.pdf):
 
 1. **Registration**
    - EC-1: User Registration with Valid Data - Passed
