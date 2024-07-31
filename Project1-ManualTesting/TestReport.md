@@ -65,8 +65,8 @@ Based on the `Test Result Matrix`:
    - **Summary:** Error in User Registration with Existing Email
    - **Description:** The system adds the digit '1' before the '@' symbol in the email address and creates a new account instead of displaying an error message.
    - **Steps to Reproduce:**
-     1. Go to the registration page [https://skleptest.pl/register](https://skleptest.pl/register).
-     2. Enter an email address that is already registered.
+     1. Go to the registration page [https://skleptest.pl/register](https://skleptest.pl/my-account/).
+     2. Enter an email address that is already registered (testowyemail@gmail.com).
      3. Fill in the other required fields.
      4. Click the "Register" button.
    - **Expected Result:** The system should display an error message indicating that the email address is already registered.
@@ -79,7 +79,7 @@ Based on the `Test Result Matrix`:
    - **Summary:** Missing Product Images in Browse Product List
    - **Description:** Some products do not display any image, showing a placeholder or broken image icon instead.
    - **Steps to Reproduce:**
-     1. Go to the product listing page [https://skleptest.pl/products](https://skleptest.pl/products).
+     1. Go to the product listing page [https://skleptest.pl/products](https://skleptest.pl/).
      2. Browse through the list of products.
    - **Expected Result:** Each product should display a corresponding image.
    - **Actual Result:** Some products do not display any image.
@@ -94,7 +94,7 @@ Based on the `Test Result Matrix`:
      - Negative Quantity Value in Add to Cart Field
      - Quantity Field Limited to Two Digits in Add to Cart
    - **Steps to Reproduce:**
-     1. Go to the product details page [https://skleptest.pl/product/{product-id}](https://skleptest.pl/product/{product-id}).
+     1. Go to the product details page [https://skleptest.pl/product/{product-id}](https://skleptest.pl/product/little-black-top/).
      2. Check the product description section.
      3. Check the quantity input field for adding the product to the cart.
    - **Expected Result:** Detailed product description, positive integer quantity input.
@@ -107,7 +107,7 @@ Based on the `Test Result Matrix`:
    - **Summary:** Incorrect Products Displayed in Shoes Category
    - **Description:** The list displays products that do not belong to the "Shoes" category.
    - **Steps to Reproduce:**
-     1. Go to the category page [https://skleptest.pl/category/shoes](https://skleptest.pl/category/shoes).
+     1. Go to the category page [https://skleptest.pl/category/shoes](https://skleptest.pl/product-category/shoes/).
      2. Browse the list of products displayed under the "Shoes" category.
    - **Expected Result:** The list should display only products that belong to the "Shoes" category.
    - **Actual Result:** The list displays products that do not belong to the "Shoes" category.
@@ -119,7 +119,7 @@ Based on the `Test Result Matrix`:
    - **Summary:** Unable to Add Single Product to Cart
    - **Description:** The product is not added to the cart after clicking the "Add to Cart" button.
    - **Steps to Reproduce:**
-     1. Go to the product details page [https://skleptest.pl/product/{product-id}](https://skleptest.pl/product/{product-id}).
+     1. Go to the product details page [https://skleptest.pl/product/{product-id}](https://skleptest.pl/product/little-black-top/).
      2. Click the "Add to Cart" button.
    - **Expected Result:** The product should be added to the cart.
    - **Actual Result:** The product is not added to the cart.
@@ -132,7 +132,7 @@ Based on the `Test Result Matrix`:
    - **Description:** Clicking the "Remove" button does not remove the product from the cart.
    - **Steps to Reproduce:**
      1. Add a product to the cart.
-     2. Go to the cart page [https://skleptest.pl/cart](https://skleptest.pl/cart).
+     2. Go to the cart page [https://skleptest.pl/cart](https://skleptest.pl/cart/).
      3. Click the "Remove" button next to the product.
    - **Expected Result:** The product should be removed from the cart.
    - **Actual Result:** Clicking the "Remove" button does not remove the product from the cart.
