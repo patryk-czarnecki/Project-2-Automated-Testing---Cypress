@@ -1,7 +1,7 @@
 class HomePage {
       
     goToRegistration() {
-      cy.get('a[href="/my-account"]').click();
+      cy.get('a[href="https://skleptest.pl/my-account/"]').click();
     }
   
     goToLogin() {
