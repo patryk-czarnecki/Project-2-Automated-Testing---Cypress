@@ -1,5 +1,41 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "registration": {
+    "valid": {
+      "email": "testowyemail@gmail.com",
+      "password": "Testowehaslo1@",
+      "successMessage": "Hello testowyemail"
+    },
+    "existingEmail": {
+      "email": "testowyemail@gmail.com",
+      "password": "testowehaslo1@",
+      "errorMessage": "An account is already registered with your email address."
+    }
+  },
+  "login": {
+    "valid": {
+      "email": "testowyemail@gmail.com",
+      "password": "testowehaslo1@",
+      "successMessage": "Hello testowyemail"
+    },
+    "invalidPassword": {
+      "email": "testowyemail@gmail.com",
+      "password": "nieprawidlowehaslo",
+      "errorMessage": "Error: The password you entered for the username testowyemail@gmail.com is incorrect."
+    },
+    "nonExistentEmail": {
+      "email": "nieistniejacyemail@gmail.com",
+      "password": "testowehaslo1@",
+      "errorMessage": "Error: A user could not be found with this email address."
+    },
+    "emptyEmail": {
+      "email": "",
+      "password": "testowehaslo1@",
+      "errorMessage": "Error: Username is required."
+    },
+    "emptyPassword": {
+      "email": "testowyemail@gmail.com",
+      "password": "",
+      "errorMessage": "Error: The password field is empty."
+    }
+  }
 }

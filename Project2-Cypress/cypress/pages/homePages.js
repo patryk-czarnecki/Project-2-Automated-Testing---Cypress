@@ -5,7 +5,7 @@ class HomePage {
     }
   
     goToLogin() {
-      cy.get('a[href="/my-account"]').click();
+      cy.get('a[href="https://skleptest.pl/my-account/"]').click();
     }
   
     goToProducts() {
