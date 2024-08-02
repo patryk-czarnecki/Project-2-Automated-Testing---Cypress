@@ -88,7 +88,8 @@ We recommend close collaboration between the testing and development teams to ad
 ## Screenshots
 
 ### TestLink Test Cases List
-![TestLink Test Cases List](QA-Portfolio/screenshots/testlink_test_cases_list.png)
+![TestLink Test Cases List](../screenshots/testlink_test_cases_list.png)
 
 ### TestLink Test Case Details
-![TestLink Test Case Details](QA-Portfolio/screenshots/testlink_test_case_details.png)
+![TestLink Test Case Details](../screenshots/testlink_test_case_details.png)
+
