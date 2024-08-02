@@ -5,13 +5,16 @@ on: workflow_dispatch
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:  
+      run:
+        working-directory: ./Project2-Cypress
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '14'
 
