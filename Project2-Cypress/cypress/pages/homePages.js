@@ -7,13 +7,9 @@ class HomePage {
     goToLogin() {
       cy.get('a[href="https://skleptest.pl/my-account/"]').click();
     }
-  
-    goToProducts() {
-        cy.visit('/');
-    }
-  
+        
     goToCart() {
-      cy.get('a[href="/cart"]').click();
+      cy.get('a[href="https://skleptest.pl/cart/"]').click();
     }
   }
   
