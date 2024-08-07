@@ -127,7 +127,7 @@ This project is integrated with Jira to enhance issue tracking and project manag
 2. Connect your GitHub account to Jira.
 3. Map your GitHub repositories to Jira projects.
 
-### example
+### Example
 
 - **Tracking commits**:
 ![Jira Integration](./screenshots/github_jira_integrations.png)
