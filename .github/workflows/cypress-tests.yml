@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:  
       run:
-        working-directory: ./Project2-Cypress
+        working-directory: ./QA-Portfolio
 
     steps:
       - name: Checkout code
@@ -22,6 +22,6 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npm run run
+        run: npm run test
         env:
           CI: true
