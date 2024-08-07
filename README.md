@@ -110,3 +110,21 @@ npm install
 ```bash
 npm run test
 ```
+
+## Integration with Jira
+
+This project is integrated with Jira to enhance issue tracking and project management. The integration allows for automatic linking of GitHub commits and pull requests to Jira issues.
+
+### Key Benefits
+
+- Automatic linking of commits and pull requests to Jira issues.
+- Enhanced visibility of development progress within Jira.
+- Streamlined workflow between code changes and issue tracking.
+
+### How to Set Up Integration
+
+1. Install the **GitHub for Jira** app from the Atlassian Marketplace.
+2. Connect your GitHub account to Jira.
+3. Map your GitHub repositories to Jira projects.
+
+![Jira Integration](./screenshots/github_jira_integrations.png)
