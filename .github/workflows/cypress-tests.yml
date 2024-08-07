@@ -1,11 +1,11 @@
 name: Cypress Tests
 
 on: workflow_dispatch
-  
+
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:  
+    defaults:
       run:
         working-directory: ./QA-Portfolio
 

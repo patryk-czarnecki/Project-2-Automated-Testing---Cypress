@@ -92,7 +92,7 @@ jobs:
 
 5. Click the **Run workflow** button.
 
-![Run GitHub Actions](../screenshots//github_actions_run.png)
+![Run GitHub Actions](./screenshots//github_actions_run.png)
 
 ## How to Run Tests Locally
 
