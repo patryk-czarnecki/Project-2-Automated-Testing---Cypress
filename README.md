@@ -127,4 +127,11 @@ This project is integrated with Jira to enhance issue tracking and project manag
 2. Connect your GitHub account to Jira.
 3. Map your GitHub repositories to Jira projects.
 
+### example
+
+- **Tracking commits**:
 ![Jira Integration](./screenshots/github_jira_integrations.png)
+
+## Conclusion
+
+This project demonstrates how to automate testing of an e-commerce website using Cypress, with CI/CD implemented via GitHub Actions and integration with Jira for enhanced project management and issue tracking.
