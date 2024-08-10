@@ -6,7 +6,7 @@ This project involves automated testing of the e-commerce website [https://sklep
 ## Test Plan
 
 ### Description
-The objective of this project is to verify the functionality of the e-commerce website [https://skleptest.pl/](https://skleptest.pl/). The tests focus on critical user functionalities such as registration, login, and shopping cart functionalities. The testing environment includes Ubuntu operating system with Google Chrome as the browser. The types of tests to be conducted include functional tests and usability tests. The criteria for test completion is 100% execution of all test cases.
+The objective of this project is to verify the functionality of the e-commerce website [https://skleptest.pl/](https://skleptest.pl/). The tests focus on critical user functionalities such as registration, login, and shopping cart functionalities. The testing environment includes Ubuntu operating system with Google Chrome as the browser. The types of tests to be conducted include functional tests. The criteria for test completion is 100% execution of all test cases.
 
 ### Scope of Testing
 
@@ -22,7 +22,6 @@ The objective of this project is to verify the functionality of the e-commerce w
 ### Types of Tests
 
 1. **Functional Tests**: To verify that each feature works according to the requirements.
-2. **Usability Tests**: To ensure the website is user-friendly and navigation is intuitive.
 
 ## Test Cases
 
@@ -338,17 +337,31 @@ jobs:
 
 ## How to Run Tests in GitHub Actions
 
-1. Navigate to the **Actions** tab in your GitHub repository.
+1. Navigate to the **Actions** tab in GitHub repository.
 
 2. In the left sidebar, you will see the **Cypress Tests** workflow. Click on it.
 
 3. Click the **Run workflow** dropdown on the right side.
 
-4. In the dropdown, select the branch on which you want to run the tests (e.g., `main`).
+4. In the dropdown, select the branch on which you want to run the tests.
 
 5. Click the **Run workflow** button.
 
 ![Run GitHub Actions](./screenshots//github_actions_run.png)
+
+## Prerequisites
+
+### Install Node.js and npm
+
+If you do not have Node.js and npm installed, download and install them from [here](https://nodejs.org/).
+
+## How to Run Tests Locally
+
+1. Clone the repository:
+
+```bash
+git clone git clone https://github.com/patryk-czarnecki/QA-Portfolio.git
+
 
 ## How to Run Tests Locally
 
