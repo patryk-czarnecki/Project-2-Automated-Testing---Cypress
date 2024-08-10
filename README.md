@@ -360,15 +360,7 @@ If you do not have Node.js and npm installed, download and install them from [he
 1. Clone the repository:
 
 ```bash
-git clone git clone https://github.com/patryk-czarnecki/QA-Portfolio.git
-
-
-## How to Run Tests Locally
-
-1. Clone the repository:
-
-```bash
-git clone git clone https://github.com/patryk-czarnecki/QA-Portfolio.git
+git clone https://github.com/patryk-czarnecki/Project-2-Automated-Testing---Cypress.git 
 ```
 2. Install dependencies:
 
